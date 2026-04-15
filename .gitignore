@@ -1,0 +1,39 @@
+# MODELOS DE IA - NO SUBIR NUNCA
+*.pt
+*.pth
+*.pkl
+*.h5
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+/models/
+/checkpoints/
+/weights/
+
+# SECRETOS Y CONFIG REAL
+.env
+config.yaml
+secrets.json
+*.key
+*.pem
+
+# DATOS Y RESULTADOS
+/data/
+/logs/
+/backtest_results/
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# BASURA DE PYTHON
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
